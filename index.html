@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perhitungan Bonus Pembelian</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>WEBSITE PERHITUNGAN BONUS PEMBELIAN</h2>
+
+    <form id="formPembelian">
+
+        <label><b>Nama Pelanggan</b></label>
+        <input type="text" id="pelanggan">
+
+        <label><b>Nama Produk</b></label>
+        <input type="text" id="produk">
+
+        <label><b>Harga Produk</b></label>
+        <input type="number" id="harga">
+
+        <label><b>Jumlah Pembelian</b></label>
+        <input type="number" id="jumlah">
+
+        <div class="button">
+            <button type="button" onclick="hitung()">Hitung</button>
+            <button type="reset" onclick="resetHasil()">Reset</button>
+        </div>
+
+    </form>
+
+    <div class="card" id="hasil" style="display:none;">
+        <h3>Hasil Perhitungan</h3>
+
+        <p><b>Nama Pelanggan :</b> <span id="hPelanggan"></span></p>
+
+        <p><b>Nama Produk :</b> <span id="hProduk"></span></p>
+
+        <p><b>Total Belanja :</b> <span id="hTotal"></span></p>
+
+        <p><b>Potongan :</b> <span id="hPotongan"></span></p>
+
+        <p><b>Total Bayar :</b> <span id="hBayar"></span></p>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
