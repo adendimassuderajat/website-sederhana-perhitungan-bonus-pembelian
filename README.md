@@ -1,2 +1,2 @@
-# website-sederhana-perhitungan-bonus-pembelian
+# websitesederhana
 website ini untuk menghitung bonus pembelian
